@@ -5,7 +5,7 @@ int main() {
         printf("Love IU");
     }
     else if (i % 3 == 0) {
-        printf("LOve");
+        printf("Love");
     }
     else if (i % 5 == 0) {
         printf("IU");
