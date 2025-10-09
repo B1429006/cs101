@@ -6,7 +6,7 @@ int main() {
     char b[] = "ABC";
     float c[] = {1.1,2.2,1.3};
     
-    fp = fopen("a.bin", "wb+");
+    fp = fopen("a .bin", "wb+");
     fwrite(a, sizeof(a), 3, fp);
     fwrite(b, sizeof(b), 3, fp);
     fwrite(c, sizeof(c), 3, fp);
